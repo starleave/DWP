@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <title>Minecraft</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+        <style>
+            @import url(CSS/index-img.css);
+            @import url(CSS/meun.css);
+            body{background-image: url(IMG/back.jpg);background-repeat: no-repeat;background-position: top;font-family: "標楷體";font-size: 4em;background-size: cover;color: white;}
+            div#main{background-color:rgb(255, 255, 255,0.15);width: 90%;display: flex;margin: auto;}
+            div#nright{
+                width: 50%;
+                float: right;
+                margin: 1% 0%;
+            }
+            div#nleft{
+                width: 35%;
+                float: left;
+                margin: 1.5% 0% 1% 2%;
+            }
+            footer{font-size: 0.8em;text-align: center;margin-top: 3%;}
+            div#b{width: 100%;display: flex;margin: auto;}
+            p.title{font-size: 1.2em;font-weight: bold;}
+            p.content{font-style: italic;}
+            div#l{width: 20%;
+                float: left;
+                margin:3.5% 0% 0% 8%;}
+            div#c{width: 60%;margin: 2% 10% 0% 1.5%;}    
+            div#r{width: 20%;
+                float: right;
+                margin:3% 0% 1% 0%;}
+        </style>
+
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div id="nleft">
+                <img src="IMG/minecraft-text.gif" height="80" style="margin-left: 5%;">
+            </div>
+            <div id="nright">
+                <nav>
+                    <ul class="drop-down-menu">
+                        <li><a href="index.html"><b>首頁</b></a></li>
+                        <li><a href="history.html"><b>歷史與發展</b></a></li>
+                        <li><a><b>遊戲玩法</b></a>
+                            <ul>
+                                <li><a href="play.html">遊戲模式</a></li>
+                                <li><a href="server.html">伺服器</a></li>
+                                <li><a href="mods.html">模組</a></li>
+                                <li><a href="build.html">建築</a></li>
+                            </ul>
+                        </li>
+                        <li><a><b>遊戲內容</b></a>
+                            <ul>
+                                <li><a href="craft.html">合成</a></li>
+                                <li><a href="smelt.html">熔煉</a></li>
+                                <li><a href="brew.html">釀造</a></li>
+                                <li><a href="enchant.html">附魔</a></li>
+                                <li><a href="redstone.html">紅石</a></li>
+                                <li><a href="trade.html">交易</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="life.html"><b>生物</b></a>
+                            <ul>
+                                <li><a href="#life1">友好生物</a></li>
+                                <li><a href="#life2">敵對生物</a></li>
+                                <li><a href="#life3">BOSS生物</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="players.html"><b>知名玩家</b></a></li>
+                        <li><a href="about.html"><b>關於我們</b></a></li>
+                    </ul>
+                </nav>
+            </div>
+        
+
+            <div id="b">
+            <div id="banner">    
+                <!-- 輪播圖片 -->
+                <div id="tab">
+                    <img class="tabImg" src="IMG/1.jpg" height="720" width="1500"/>
+                    <img class="tabImg" src="IMG/2.jpg" height="720" width="1500"/>
+                    <img class="tabImg" src="IMG/3.jpg" height="720" width="1500"/>
+                    <img class="tabImg" src="IMG/4.jpg" height="720" width="1500"/>
+                    <img class="tabImg" src="IMG/5.jpg" height="720" width="1500"/>
+                    <img class="tabImg" src="IMG/6.jpg" height="720" width="1500"/>
+                    <img class="tabImg" src="IMG/7.jpg" height="720" width="1500"/>
+                    <img class="tabImg" src="IMG/8.jpg" height="720" width="1500"/>
+                </div>
+                <!-- 指示符 -->
+                <div class="lunbo_btn">
+                    <span num="0" class="tabBtn hover"></span>
+                    <span num="1" class="tabBtn"></span>
+                    <span num="2" class="tabBtn"></span>
+                    <span num="3" class="tabBtn"></span>
+                    <span num="4" class="tabBtn"></span>
+                    <span num="5" class="tabBtn"></span>
+                    <span num="6" class="tabBtn"></span>
+                    <span num="7" class="tabBtn"></span>
+                    <span num="8" class="tabBtn"></span>
+                </div>    
+                <!-- 左右切換按鈕 -->
+                <div class="arrow prve">
+                    <span class="slider_left"></span>
+                </div>
+                <div class="arrow next">
+                    <span class="slider_right"></span>
+                </div>    
+            </div>
+            </div>
+            <br>
+        </div>
+        <script src="JS/index-img.js"></script>
+    </body>
+    <footer>@最後更新時間：2022/05/21</footer>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ch-TW">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <title>紅石</title>
+        <style>
+            @import url(CSS/meun.css);
+            body{background-image: url(IMG/back.jpg);background-repeat: no-repeat;background-position: top;font-family: "標楷體";font-size: 3.5em;background-size: cover;color: black;}
+            div#main{background-color:rgb(255, 255, 255,0.65);width: 90%;display: flex;margin: auto;clear: both;}
+            footer{font-size: 0.8em;text-align: center;margin-top: 3%;color: white;}
+            div#nright{
+                width: 50%;
+                float: right;
+                margin: 1% 0%;
+            }
+            div#nleft{
+                width: 35%;
+                float: left;
+                margin: 1.5% 0% 1% 2%;
+            }
+            div#l{
+                width: 50%;
+                float: left;
+                margin: 5% 0% 0% 25%;
+            }
+            div#r{
+                width: 50%;
+                float: right;
+                margin: 3% 0% 1% 0%;
+            }
+            table{margin-top: 5%;}
+            p#c{width: 90%;margin-left: 5%;}
+            div#a{width: 100%;}
+            p#redstone1{font-size: 1.2em;font-weight: bold;width: 90%;margin-left: 5%;margin-top:5%;}
+            p#redstone2{font-size: 1.2em;font-weight: bold;width: 90%;margin-left: 5%;margin-top:5%;}
+            p#redstone3{font-size: 1.2em;font-weight: bold;width: 90%;margin-left: 5%;margin-top:5%;}
+            
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+        <div id="nleft"><img src="IMG/minecraft-text.gif" height="80" style="margin-left: 5%;"></div>
+        <div id="nright">
+            <nav>
+                <ul class="drop-down-menu">
+                    <li><a href="index.html"><b>首頁</b></a></li>
+                    <li><a href="history.html"><b>歷史與發展</b></a></li>
+                    <li><a><b>遊戲玩法</b></a>
+                        <ul>
+                            <li><a href="play.html">遊戲模式</a></li>
+                            <li><a href="server.html">伺服器</a></li>
+                            <li><a href="mods.html">模組</a></li>
+                            <li><a href="build.html">建築</a></li>
+                        </ul>
+                    </li>
+                    <li><a><b>遊戲內容</b></a>
+                        <ul>
+                            <li><a href="craft.html">合成</a></li>
+                            <li><a href="smelt.html">熔煉</a></li>
+                            <li><a href="brew.html">釀造</a></li>
+                            <li><a href="enchant.html">附魔</a></li>
+                            <li><a href="redstone.html">紅石</a></li>
+                            <li><a href="trade.html">交易</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="life.html"><b>生物</b></a>
+                        <ul>
+                            <li><a href="#life1">友好生物</a></li>
+                            <li><a href="#life2">敵對生物</a></li>
+                            <li><a href="#life3">BOSS生物</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="players.html"><b>知名玩家</b></a></li>
+                    <li><a href="about.html"><b>關於我們</b></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="main">
+            <div id="l">
+                <table border="1">
+                    <tr>
+                        <td>目錄</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#redstone1">紅石電路</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#redstone2">紅石元件分類</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#redstone3">紅石運用</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="r">
+                <img src="IMG/Minecraft-xbox.jpg">
+            </div>
+        </div>
+        <div id="main">
+            <div id="a">
+                <p id="redstone1">紅石電路（Redstone circuits</p>
+                <hr>
+                <p id="c" style = "font-size:0.8em;">&emsp;&emsp;為玩家建造起來可以用於控制或啟動其他機械的結構，可以透過玩家手動控制，也可以使其自動工作或是重複輸出訊號，偵測生物移動、物品掉落、植物生長、日夜更替等等，可以用紅石製作機關，自動化機器，小遊戲，增加遊戲可玩性。</p>
+                <p id="redstone2">紅石元件分類</p>
+                <hr>
+                <p id="c" style = "font-size:0.8em;">&emsp;&emsp;紅石元件是在紅石電路裡具有一定使用目的的方塊，大致分為三個大類。</p>
+                <p id="c" style = "font-size:0.8em;">&emsp;&emsp;&emsp;&emsp;1.電源為整個電路或部分電路提供訊號來源，例如紅石火把、按鈕、控制桿、紅石方塊、壓力板等。</p>
+                <p id="c" style = "font-size:0.8em;">&emsp;&emsp;&emsp;&emsp;2.傳輸元件將訊號從電路的一部分傳遞到另一部分，例如紅石粉、紅石中繼器、紅石比較器等。</p>
+                <p id="c" style = "font-size:0.8em;">&emsp;&emsp;&emsp;&emsp;3.機械元件接受訊號並作出反應（例如移動、發光等），例如活塞、紅石燈、發射器等。</p>
+                <br>
+                <p id="c" style = "margin-left: 8%;"><a href="https://minecraft.fandom.com/zh/wiki/%E7%BA%A2%E7%9F%B3%E7%94%B5%E8%B7%AF#.E5.9F.BA.E6.9C.AC.E6.A6.82.E5.BF.B5">紅石詳細介紹</a></p>
+
+                <p id="redstone3">紅石運用</p>
+                <hr>  
+                <div id="redstone">
+                    <table  style="text-align:center;margin: auto;">
+                        <tr>  
+                            <td><iframe width="660" height="415" src="https://www.youtube.com/embed/FfW8085X7qU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                            <td>&emsp;&emsp;</td>
+                            <td><iframe width="660" height="415" src="https://www.youtube.com/embed/tDxKhiJfgYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                        </tr>
+                    </table>
+                </div>    
+        </div>
+    </div>
+    </body>
+    <footer>@最後更新時間：2022/05/26</footer>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ch-TW">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <title>釀造</title>
+        <style>
+            @import url(CSS/meun.css);
+            body{background-image: url(IMG/back.jpg);background-repeat: no-repeat;background-position: top;font-family: "標楷體";font-size: 3.5em;background-size: cover;color: black;}
+            div#main{background-color:rgb(255, 255, 255,0.65);width: 90%;display: flex;margin: auto;clear: both;}
+            footer{font-size: 0.8em;text-align: center;margin-top: 3%;color: white;}
+            div#nright{
+                width: 50%;
+                float: right;
+                margin: 1% 0%;
+            }
+            div#nleft{
+                width: 35%;
+                float: left;
+                margin: 1.5% 0% 1% 2%;
+            }
+            div#l{
+                width: 50%;
+                float: left;
+                margin:5% 0% 0% 25%;
+            }  
+            div#r{
+                width: 50%;
+                float: right;
+                margin:3% 0% 1% 0%;
+            }
+            table{margin-top: 5%;}
+            p#title{font-size: 1.2em;font-weight: bold;width: 90%;margin-left: 5%;margin-top:5%;}
+            p#c{width: 90%;margin-left: 5%;}
+            div#a{width: 100%;}
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+        <div id="nleft"><img src="IMG/minecraft-text.gif" height="80" style="margin-left: 5%;"></div>
+        <div id="nright">
+            <nav>
+                <ul class="drop-down-menu">
+                    <li><a href="index.html"><b>首頁</b></a></li>
+                    <li><a href="history.html"><b>歷史與發展</b></a></li>
+                    <li><a><b>遊戲玩法</b></a>
+                        <ul>
+                            <li><a href="play.html">遊戲模式</a></li>
+                            <li><a href="server.html">伺服器</a></li>
+                            <li><a href="mods.html">模組</a></li>
+                            <li><a href="build.html">建築</a></li>
+                        </ul>
+                    </li>
+                    <li><a><b>遊戲內容</b></a>
+                        <ul>
+                            <li><a href="craft.html">合成</a></li>
+                            <li><a href="smelt.html">熔煉</a></li>
+                            <li><a href="brew.html">釀造</a></li>
+                            <li><a href="enchant.html">附魔</a></li>
+                            <li><a href="redstone.html">紅石</a></li>
+                            <li><a href="trade.html">交易</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="life.html"><b>生物</b></a>
+                        <ul>
+                            <li><a href="#life1">友好生物</a></li>
+                            <li><a href="#life2">敵對生物</a></li>
+                            <li><a href="#life3">BOSS生物</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="players.html"><b>知名玩家</b></a></li>
+                    <li><a href="about.html"><b>關於我們</b></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="main">
+            <div id="l">
+                <table border="1">
+                    <tr>
+                        <td>目錄</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#a">釀造</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#container">釀造配方表</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="r">
+                <img src="IMG/Minecraft-xbox.jpg">
+            </div>
+        </div>
+        <div id="main">
+            <div id="a">
+                <p id="title">釀造（Brewing）</p>
+                <hr>
+                <p id="c">&emsp;&emsp;在釀造台把水瓶裡加入各種材料而製作藥水、飛濺藥水和滯留藥水的過程。<br><br></p>
+            <div id="container">
+                <table style="margin: auto;text-align: center;">
+                    <tr>
+                        <td><p id="c" style = "font-size:0.8em;"><u>釀造台操作介面</u></p></td>
+                    </tr>
+                    <tr>
+                        <td><img src="IMG/brew2.jpg"></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td><p style = "font-size:30px;"><u>藥水釀造配方表</u></p></td>
+                    </tr>
+                    <tr>
+                        <td><img src="IMG/brew1.webp"></td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+        </div>
+    </div>
+    </body>
+    <footer>@最後更新時間：2022/05/25</footer>
+</html>

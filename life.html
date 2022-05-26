@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ch-TW">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <title>生物</title>
+        <style>
+            @import url(CSS/meun.css);
+            body{background-image: url(IMG/back.jpg);background-repeat: no-repeat;background-position: top;font-family: "標楷體";font-size: 3.5em;background-size: cover;color: black;}
+            div#main{background-color:rgb(255, 255, 255,0.65);width: 90%;display: flex;margin: auto;clear: both;}
+            footer{font-size: 0.8em;text-align: center;margin-top: 3%;color: white;}
+            div#nright{
+                width: 50%;
+                float: right;
+                margin: 1% 0%;
+            }
+            div#nleft{
+                width: 35%;
+                float: left;
+                margin: 1.5% 0% 1% 2%;
+            }
+            div#l{
+                width: 50%;
+                float: left;
+                margin: 5% 0% 0% 25%;
+            }
+            div#r{
+                width: 50%;
+                float: right;
+                margin: 3% 0% 1% 0%;
+            }
+            table{margin-top: 5%;}
+            p#title{font-size: 1.2em;font-weight: bold;width: 90%;margin-left: 5%;margin-top:5%;}
+            p#c{width: 90%;margin-left: 5%;}
+            div#a{width: 100%;}
+            div#tr{float: right;width: 68%;margin-top: 3%;margin-left: 2%;}
+            div#tl{float: left;width: 28%;margin-top: 2%;margin-left: 2%;}
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+        <div id="nleft"><img src="IMG/minecraft-text.gif" height="80" style="margin-left: 5%;"></div>
+        <div id="nright">
+            <nav>
+                <ul class="drop-down-menu">
+                    <li><a href="index.html"><b>首頁</b></a></li>
+                    <li><a href="history.html"><b>歷史與發展</b></a></li>
+                    <li><a><b>遊戲玩法</b></a>
+                        <ul>
+                            <li><a href="play.html">遊戲模式</a></li>
+                            <li><a href="server.html">伺服器</a></li>
+                            <li><a href="mods.html">模組</a></li>
+                            <li><a href="build.html">建築</a></li>
+                        </ul>
+                    </li>
+                    <li><a><b>遊戲內容</b></a>
+                        <ul>
+                            <li><a href="craft.html">合成</a></li>
+                            <li><a href="smelt.html">熔煉</a></li>
+                            <li><a href="brew.html">釀造</a></li>
+                            <li><a href="enchant.html">附魔</a></li>
+                            <li><a href="redstone.html">紅石</a></li>
+                            <li><a href="trade.html">交易</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="life.html"><b>生物</b></a>
+                        <ul>
+                            <li><a href="#life1">友好生物</a></li>
+                            <li><a href="#life2">敵對生物</a></li>
+                            <li><a href="#life3">BOSS生物</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="players.html"><b>知名玩家</b></a></li>
+                    <li><a href="about.html"><b>關於我們</b></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="main">
+            <div id="l">
+                <table border="1">
+                    <tr>
+                        <td>目錄</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#1">友好生物</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#2">敵對生物</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#3">BOSS生物</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="r">
+                <img src="IMG/Minecraft-xbox.jpg">
+            </div>
+        </div>
+        <div id="main">
+            <div id="a">
+                <p id="title">友好生物</p>
+                <hr>
+                <div id="tl">
+                    <p id="c"><u>無攻擊能力</u></p>
+                    <p id="c" style = "font-size:0.8em;">&emsp;&emsp;這些生物沒有任何造成傷害的能力，受到傷害時通常會驚慌逃竄。</p>
+                </div>
+                <div id="tr">
+                    <img src="IMG/good1.jpg" width="95%">
+                </div>                
+                
+                <br style="clear: both;"><br>
+                <div id="tl">
+                    <p id="c"><u>無差別攻擊</u></p>
+                    <p id="c" style = "font-size:0.8em;">&emsp;&emsp;這些生物會無差別攻擊包括玩家在內的任何生物，但不會報復性地反擊目標。</p>
+                </div>
+                <div id="tr">
+                    <img src="IMG/good2.jpg" width="95%">
+                </div>
+                
+                <br style="clear: both;"><br>
+
+                <div id="tl">
+                    <p id="c"><u>特定攻擊目標</u></p>
+                    <p id="c" style = "font-size:0.8em;">&emsp;&emsp;這些生物擁有造成傷害的能力，且會攻擊生物，但在任何情況下都不會試圖攻擊玩家。</p>
+                </div>
+                <div id="tr">
+                    <img src="IMG/good3.jpg" width="95%">
+                </div>
+                
+                <br style="clear: both;"><br>
+
+                <div id="tl">
+                    <p id="c"><u>條件敵對</u></p>
+                    <p id="c" style = "font-size:0.8em;">&emsp;&emsp;這些生物被歸類為友好生物，但具有攻擊能力和敵對條件，且能夠在受到侵害時反擊加害者，包括玩家。</p>
+                </div>
+                <div id="tr">
+                    <img src="IMG/good4.jpg" width="95%">
+                </div>
+
+            </div>
+        </div>
+        <div id="main">
+            <div id="2">
+                <p id="title">敵對生物</p>
+                <hr>
+
+                <div id="tl">
+                    <p id="c"><u>無條件敵對</u></p>
+                    <p id="c" style = "font-size:0.8em;">&emsp;&emsp;這些生物始終會主動攻擊玩家。這些生物均會阻止附近的玩家使用床入睡。</p>
+                </div>
+                <div id="tr">
+                    <img src="IMG/bad1.jpg" width="95%">
+                </div>                
+                
+                <br style="clear: both;"><br>
+                
+                <div id="tl">
+                    <p id="c"><u>有條件敵對</u></p>
+                    <p id="c" style = "font-size:0.8em;">&emsp;&emsp;這些生物通常容易被玩家激怒，但可以透過滿足特定的條件，使其不會攻擊玩家且不會阻止玩家入睡。</p>
+                </div>
+                <div id="tr">
+                    <img src="IMG/bad2.jpg" width="95%">
+                </div>                
+                
+                <br style="clear: both;"><br>
+
+                <div id="tl">
+                    <p id="c"><u>生物組合</u></p>
+                    <p id="c" style = "font-size:0.8em;">&emsp;&emsp;這些生物的本質是互相乘騎的多種生物，具有特殊的生成條件，其中的每一部分都分別保留各自的行為。</p>
+                </div>
+                <div id="tr">
+                    <img src="IMG/bad3.jpg" width="95%">
+                </div>                
+                
+                <br style="clear: both;"><br>
+            </div>
+        </div>
+        <div id="main">
+            <div id="3">
+                <p id="title">BOSS生物</p>
+                <hr>
+                <p id="c" style = "font-size:0.8em;">&emsp;&emsp;BOSS生物是擁有多種攻擊手段、堅韌且極具破壞性的敵對生物，為玩家提供更長期、更危險和更大規模的戰鬥，並且有與其相關的Boss欄顯示其生命值。它們通常對大多數狀態效果免疫，並且能夠看到受隱形效果的生物。</p>
+                <br>
+                <p id="c"><u>終界龍</u></p>
+
+                <div style="float: left;width: 50%;margin-right: 2%;">
+                    <p id="c" style = "font-size:0.8em;"><br>&emsp;&emsp;終界龍（Ender Dragon）是玩家初次進入終界時生成的危險的、會飛行的Boss生物。終界龍會被附近終界水晶治療，它會摧毀它所接觸到的幾乎所有方塊，在無法摧毀的方塊中也不會受到窒息傷害上，在所有能夠自然生成的生物中，終界龍是最大的。它同時也是最廣為人知的Minecraft最終Boss。</p>
+                </div>
+                <div style="float: right;width: 40%;">
+                    <img src="IMG/dragon.webp" width="340px">
+                </div>
+                
+                
+                <br style="clear: both;"><br>
+                <p id="c"><u>凋零怪</u></p>
+
+                <div style="float: left;width: 50%;margin-right: 2%;">
+                    <p id="c" style = "font-size:0.8em;"><br>&emsp;&emsp;凋零怪（Wither）是一種由玩家建造，會浮在空中且向玩家和生物發射凋零頭顱的不死敵對生物，當凋零怪的生命值減至一半以下的時候，凋零怪會被給予「凋零怪護甲」效果
+                        ，該效果使凋零怪免疫箭和三叉戟對它的傷害，打敗凋零怪會掉落合成烽火台所需材料地獄之星。</p>
+                </div>
+                <div style="float: right;width: 48%;">
+                    <img src="IMG/BE1.webp" width="340px">
+                    <img src="IMG/BE2.webp"width="340px" >
+                </div>
+                
+                
+                <br style="clear: both;"><br>
+                
+            </div>
+        </div>
+        </div>
+    </body>
+    <footer>@最後更新時間：2022/05/23</footer>
+</html>

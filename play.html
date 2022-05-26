@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ch-TW">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+        <title>遊戲模式</title>
+        <style>
+            @import url(CSS/meun.css);
+            body{background-image: url(IMG/back.jpg);background-repeat: no-repeat;background-position: top;font-family: "標楷體";font-size: 3.5em;background-size: cover;color: black;}
+            div#main{background-color:rgb(255, 255, 255,0.65);width: 90%;display: flex;margin: auto;clear: both;}
+            footer{font-size: 0.8em;text-align: center;margin-top: 3%;color: white;}
+            div#nright{
+                width: 50%;
+                float: right;
+                margin: 1% 0%;
+            }
+            div#nleft{
+                width: 35%;
+                float: left;
+                margin: 1.5% 0% 1% 2%;
+            }
+            div#l{width: 50%;
+                float: left;
+                margin:5% 0% 0% 25%;
+            }  
+            div#r{width: 50%;
+                float: right;
+                margin:3% 0% 1% 0%;
+            }
+            table{margin-top: 5%;}
+            p#title{font-size: 1.2em;font-weight: bold;width: 90%;margin-left: 5%;margin-top:5%;}
+            p#c{width: 90%;margin-left: 5%;}
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+        <div id="nleft"><img src="IMG/minecraft-text.gif" height="80" style="margin-left: 5%;"></div>
+        <div id="nright">
+            <nav>
+                <ul class="drop-down-menu">
+                    <li><a href="index.html"><b>首頁</b></a></li>
+                    <li><a href="history.html"><b>歷史與發展</b></a></li>
+                    <li><a><b>遊戲玩法</b></a>
+                        <ul>
+                            <li><a href="play.html">遊戲模式</a></li>
+                            <li><a href="server.html">伺服器</a></li>
+                            <li><a href="mods.html">模組</a></li>
+                            <li><a href="build.html">建築</a></li>
+                        </ul>
+                    </li>
+                    <li><a><b>遊戲內容</b></a>
+                        <ul>
+                            <li><a href="craft.html">合成</a></li>
+                            <li><a href="smelt.html">熔煉</a></li>
+                            <li><a href="brew.html">釀造</a></li>
+                            <li><a href="enchant.html">附魔</a></li>
+                            <li><a href="redstone.html">紅石</a></li>
+                            <li><a href="trade.html">交易</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="life.html"><b>生物</b></a>
+                        <ul>
+                            <li><a href="#life1">友好生物</a></li>
+                            <li><a href="#life2">敵對生物</a></li>
+                            <li><a href="#life3">BOSS生物</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="players.html"><b>知名玩家</b></a></li>
+                    <li><a href="about.html"><b>關於我們</b></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="main">
+            <div id="l">
+                <table border="1">
+                    <tr>
+                        <td>目錄</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#play1">生存模式</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#play2">冒險模式</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#play3">極限模式</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#play4">創造模式</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#play5">旁觀者模式</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="r">
+                <img src="IMG/Minecraft-xbox.jpg">
+            </div>
+        </div>
+        <div id="main">
+            <div id="hist">
+                <p id="title">遊戲模式</p>
+                <hr>
+                <p id="play1"><p id="c">生存模式（Survival Mode）</p></p>
+                <p id="c" style = "font-size:0.8em;">&emsp;&emsp;生存模式為Minecraft最多人遊玩的模式，死亡可以重生，但身上物品會全部掉落。玩家必須自行收集資源、建造建築、和怪物戰鬥、管理飢餓條，並探索世界來生存和發展。</p>
+                <img src="IMG/sur.jpg" width="70%" style="margin-left: 15%;">
+                <br><hr>
+                <p id="play2"><p id="c">冒險模式（Adventure Mode）</p></p>
+                <p id="c" style = "font-size:0.8em;">&emsp;&emsp;冒險模式是一種供在玩家自創的地圖使用的遊戲模式，在Minecraft設定限制，使玩家不能破壞和放置任何方塊，以避免損壞冒險地圖或惡意破壞伺服器。</p>
+                <br><hr>
+                <p id="play3"><p id="c">極限模式（Hardcore mode）</p></p>
+                <p id="c" style = "font-size:0.8em;">&emsp;&emsp;極限模式為生存模式的變種，不可作弊和調整難易度，玩家在死後不可重生，只能進入旁觀者模式重生，且不能再更動任一方塊或物品。</p>
+                <img src="IMG/hard.jpg" width="70%" style="margin-left: 15%;">
+                <hr>
+                <p id="play4"><p id="c">創造模式（Creative Mode）</p></p>
+                <p id="c" style = "font-size:0.8em;">&emsp;&emsp;創造模式移除了遊戲中的生存內容，並且允許玩家方便自由地創造和破壞結構與機械，並通過指令拿取顯示在創造模式物品欄中的物品</p>
+                <img src="IMG/creat.webp" width="70%" style="margin-left: 15%;">
+                <br><hr>
+                <p id="play5"><p id="c">旁觀者模式（Spectator mode）</p></p>
+                <p id="c" style = "font-size:0.8em;">&emsp;&emsp;旁觀者模式允許玩家以飛行的方式無障礙穿過任何方塊觀察世界，玩家在旁觀者模式時人物模型為透明且不受熔岩、窒息、爆炸等傷害影響。</p>
+                <img src="IMG/spe.jpg" width="70%" style="margin-left: 15%;margin-bottom: 5%;">
+            </div></div></div>
+    </body>
+    <footer>@最後更新時間：2022/05/25</footer>
+</html>

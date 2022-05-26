@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ch-TW">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <title>熔煉</title>
+        <style>
+            @import url(CSS/meun.css);
+            body{background-image: url(IMG/back.jpg);background-repeat: no-repeat;background-position: top;font-family: "標楷體";font-size: 3.5em;background-size: cover;color: black;}
+            div#main{background-color:rgb(255, 255, 255,0.65);width: 90%;display: flex;margin: auto;clear: both;}
+            footer{font-size: 0.8em;text-align: center;margin-top: 3%;color: white;}
+            div#nright{
+                width: 50%;
+                float: right;
+                margin: 1% 0%;
+            }
+            div#nleft{
+                width: 35%;
+                float: left;
+                margin: 1.5% 0% 1% 2%;
+            }
+            div#l{
+                width: 50%;
+                float: left;
+                margin:5% 0% 0% 25%;
+            }  
+            div#r{
+                width: 50%;
+                float: right;
+                margin:3% 0% 1% 0%;
+            }
+            table{margin-top: 5%;}
+            p#smelt1{font-size: 1.2em;font-weight: bold;width: 90%;margin-left: 5%;margin-top:5%;}
+            p#smelt2{font-size: 1.2em;font-weight: bold;width: 90%;margin-left: 5%;margin-top:5%;}
+            div#a{width: 100%;}
+            p#c{width: 90%;margin-left: 5%;}
+            table#t{text-align: center;margin: auto;}
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+        <div id="nleft"><img src="IMG/minecraft-text.gif" height="80" style="margin-left: 5%;"></div>
+        <div id="nright">
+            <nav>
+                <ul class="drop-down-menu">
+                    <li><a href="index.html"><b>首頁</b></a></li>
+                    <li><a href="history.html"><b>歷史與發展</b></a></li>
+                    <li><a><b>遊戲玩法</b></a>
+                        <ul>
+                            <li><a href="play.html">遊戲模式</a></li>
+                            <li><a href="server.html">伺服器</a></li>
+                            <li><a href="mods.html">模組</a></li>
+                            <li><a href="build.html">建築</a></li>
+                        </ul>
+                    </li>
+                    <li><a><b>遊戲內容</b></a>
+                        <ul>
+                            <li><a href="craft.html">合成</a></li>
+                            <li><a href="smelt.html">熔煉</a></li>
+                            <li><a href="brew.html">釀造</a></li>
+                            <li><a href="enchant.html">附魔</a></li>
+                            <li><a href="redstone.html">紅石</a></li>
+                            <li><a href="trade.html">交易</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="life.html"><b>生物</b></a>
+                        <ul>
+                            <li><a href="#life1">友好生物</a></li>
+                            <li><a href="#life2">敵對生物</a></li>
+                            <li><a href="#life3">BOSS生物</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="players.html"><b>知名玩家</b></a></li>
+                    <li><a href="about.html"><b>關於我們</b></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="main">
+            <div id="l">
+                <table border="1">
+                    <tr>
+                        <td>目錄</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#smelt1">熔煉</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="r">
+                <img src="IMG/Minecraft-xbox.jpg">
+            </div>
+        </div>
+        <div id="main">
+            <div id="a">
+                <p id="smelt1">熔煉（Smelting）</p>
+                <hr>
+                <p id="c">&emsp;&emsp;熔煉是在Minecraft裡提煉或加熱物品的方式，只要給予適合的材料，就會輸出對應的成品。熔煉可以使用熔爐、高爐或煙燻爐進行。<br><br></p>
+
+                <table id="t" border="1" >
+                    <tr>
+                        <td>名稱</td>
+                        <td>用途</td>
+                        <td>合成配方</td>
+                        <td>操作介面</td>
+                    </tr>
+                    <tr>
+                        <td><img src="IMG/smelt1.webp" width="95em"><br><p id="c" style = "font-size:0.8em;">熔爐</p></td>
+                        <td><p id="c" style = "font-size:0.8em;">用來熔煉方塊和物品並把它們轉換為另一種方塊或物品的方塊。</p></td>
+                        <td><img src="IMG/smelt5.jpg" width="350em"></td>
+                        <td rowspan = "3"><img src="IMG/smelt2.jpg" width="350em"><br></td>
+                    </tr>
+                    <tr>
+                        <td><img src="IMG/smelt3.webp" width="95em"><br><p id="c" style = "font-size:0.8em;">高爐</p></td>
+                        <td><p id="c" style = "font-size:0.8em;">專用於熔煉礦石、工具和盔甲的熔爐變種。</p></td>
+                        <td><img src="IMG/smelt6.jpg" width="350em"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="IMG/smelt4.webp" width="95em"><br><p id="c" style = "font-size:0.8em;">煙燻爐</p></td>
+                        <td><p id="c" style = "font-size:0.8em;">專門用於烹製熟食的熔爐變種。</p></td>
+                        <td><img src="IMG/smelt7.jpg" width="350em"></td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+        </div>
+    </div>
+    </body>
+    <footer>@最後更新時間：2022/05/26</footer>
+</html>
